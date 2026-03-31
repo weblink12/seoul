@@ -68,12 +68,12 @@
         <div class="nav-scroll-wrapper">
             <nav class="flex justify-start whitespace-nowrap border-b border-stone-200 mb-8 sm:justify-center">
                 <button data-tab="links" class="nav-tab py-3 px-4 sm:px-6 text-base active">行前通知</button>
-                <button data-tab="day1" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 1</button>
-                <button data-tab="day2" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 2</button>
-                <button data-tab="day3" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 3</button>
-                <button data-tab="day4" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 4</button>
-                <button data-tab="day5" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 5</button>
-                <button data-tab="day6" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 6</button>
+                <button data-tab="day1" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 1 (日)</button>
+                <button data-tab="day2" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 2 (一)</button>
+                <button data-tab="day3" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 3 (二)</button>
+                <button data-tab="day4" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 4 (三)</button>
+                <button data-tab="day5" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 5 (四)</button>
+                <button data-tab="day6" class="nav-tab py-3 px-4 sm:px-6 text-base">Day 6 (五)</button>
             </nav>
         </div>
 
@@ -126,7 +126,7 @@
                             </div>
                         </div>
 
-                        <!-- 02 行泥與設備相關 -->
+                        <!-- 02 行李與設備相關 -->
                         <div class="text-left">
                             <h3 class="text-xl font-bold text-rose-500 mb-1">02 行李與設備相關</h3>
                             <hr class="border-t-2 border-rose-100 mb-4">
@@ -202,17 +202,16 @@
                 ]
             },
             day1: {
-                title: "Day 1：4/5 抵達與明洞之夜",
+                title: "4/5 啟程與抵達",
                 events: [
-                    { time: "下午", icon: "✈️", title: "抵達仁川國際機場", description: "辦理入境，領取行李並兌換韓幣/領取 SIM 卡。" },
-                    { time: "交通", icon: "🚆", title: "搭乘 AREX 直達列車", description: "前往首爾站，再轉乘地鐵前往飯店 check-in。" },
-                    { time: "18:00~20:00", icon: "🍖", title: "晚餐：明洞僑村炸雞或荒謬的生肉", description: "在熱鬧的明洞享用韓式炸雞或烤肉吃到飽。", url: "https://maps.app.goo.gl/Myeongdong" },
-                    { time: "20:00~22:00", icon: "🛍️", title: "明洞商圈購物", description: "逛美妝旗艦店、服飾品牌（如 8 Seconds, Topten）。" },
-                    { time: "交通", icon: "🏨", title: "入住飯店", description: "返回明洞或弘大周邊飯店休息。" }
+                    { time: "17:55", icon: "🛫", title: "台中機場起飛", description: "帶著期待的心情出發首爾！" },
+                    { time: "21:35", icon: "🛬", title: "抵達首爾仁川機場", description: "辦理入境，領取行李並兌換韓幣/領取 SIM 卡。" },
+                    { time: "交通", icon: "🚇", title: "搭乘 AREX 普通車", description: "<div class='flex justify-between items-center w-full'><span>前往弘大入口站，直接進入熱鬧的首爾街頭。</span><a href='https://www.airportrailroad.com/train/normal/info/110/0' target='_blank' class='shrink-0 text-rose-400 underline font-bold whitespace-nowrap ml-2 text-xs sm:text-sm'>AREX 時刻表 ↗</a></div>" },
+                    { time: "23:30", icon: "🏨", title: "抵達弘大住宿點", description: "辦理入住並安頓行李休息。" }
                 ]
             },
             day2: {
-                title: "Day 2：4/6 古宮韓服與北村散策",
+                title: "4/6 古宮韓服與北村散策",
                 events: [
                     { time: "09:30~12:30", icon: "🏯", title: "景福宮韓服體驗", description: "穿著韓服在古宮與櫻花背景下拍照留念。", url: "https://maps.app.goo.gl/Gyeongbokgung" },
                     { time: "13:00~14:30", icon: "🍲", title: "午餐：土俗村參雞湯", description: "享用首爾最具代表性的蔘雞湯滋補一下。", url: "https://maps.app.goo.gl/Samgyetang" },
@@ -222,7 +221,7 @@
                 ]
             },
             day3: {
-                title: "Day 3：4/7 汝矣島櫻花雪與現代百貨",
+                title: "4/7 汝矣島櫻花雪與現代百貨",
                 events: [
                     { time: "10:00~12:30", icon: "🌸", title: "汝矣島輪中路櫻花隧道", description: "走在綿延數公里的櫻花大道，感受微風吹過的櫻花雪。" },
                     { time: "13:00~14:30", icon: "🍜", title: "漢江公園野餐：泡麵體驗", description: "利用漢江邊的自動煮泡麵機，體驗韓劇中的野餐樂趣。" },
@@ -231,7 +230,7 @@
                 ]
             },
             day4: {
-                title: "Day 4：4/8 江南時尚與星空圖書館",
+                title: "4/8 江南時尚與星空圖書館",
                 events: [
                     { time: "11:00~13:00", icon: "☕", title: "新沙洞林蔭道 Cafe Hopping", description: "在充滿時尚氣息的林蔭道尋找精緻咖啡廳。" },
                     { time: "13:30~15:00", icon: "🍱", title: "午餐：江南高端韓式定食", description: "體驗精緻的韓式宮廷料理或潮流創意餐廳。" },
@@ -241,7 +240,7 @@
                 ]
             },
             day5: {
-                title: "Day 5：4/9 聖水洞工業風與東大門",
+                title: "4/9 聖水洞工業風與東大門",
                 events: [
                     { time: "11:00~14:00", icon: "🧱", title: "聖水洞文青散策", description: "逛逛 Dior 聖水店旗艦店、各種工業風改建的選物店與藝廊。" },
                     { time: "14:30~16:30", icon: "🦌", title: "首爾林賞櫻", description: "首爾另一個熱門賞櫻地點，還可以餵食可愛的小鹿。" },
@@ -250,7 +249,7 @@
                 ]
             },
             day6: {
-                title: "Day 6：4/10 樂天超市血拼與返程",
+                title: "4/10 樂天超市血拼與返程",
                 events: [
                     { time: "09:30~12:00", icon: "🛒", title: "樂天超市 (首爾站店)", description: "最後採買海苔、泡麵、零食等伴手禮並辦理退稅。" },
                     { time: "12:30~13:30", icon: " Dumpling ", title: "午餐：首爾站周邊快餐", description: "簡單享用午餐後準備搭車。" },
@@ -329,7 +328,7 @@
                                     ${isLinkable ? '<span class="text-[11px] font-bold text-rose-500 underline decoration-rose-200">🔗 查看地圖</span>' : ''}
                                 </div>
                                 <h4 class="text-lg sm:text-xl font-bold text-stone-800 mb-2">${event.title}</h4>
-                                <p class="text-sm text-stone-600 leading-relaxed">${event.description}</p>
+                                <div class="text-sm text-stone-600 leading-relaxed">${event.description}</div>
                             </${elementTag}>
                         </div>
                     </div>
