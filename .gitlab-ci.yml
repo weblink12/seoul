@@ -1,0 +1,18 @@
+pages:
+  image: node:20.11.0-alpine 
+  
+  stage: deploy
+  
+  script:
+    - mkdir .public
+    
+    - mv * .public
+    
+    - mv .public public
+
+  artifacts:
+    paths:
+      - public
+  
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
